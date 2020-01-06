@@ -7,9 +7,8 @@
 DataBase::DataBase(QObject* parent)
 {
     QSqlDatabase db=QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("MyDatabase.db");
+    db.setDatabaseName("../ReservationApp/MyDatabase.db");
     db.open();
     query=QSqlQuery(db);
 
 }
-
