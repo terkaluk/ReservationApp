@@ -11,8 +11,9 @@ SQLITE3
 
 ### Instrukcja uruchomienia
 
-Program uruchamia się za pomocą Qt Creator  
+Program uruchamia się za pomocą Qt Creator, otwierając plik ReservationApp.pro  
 
+### Funkcjonalności
 
 Na ekranie głównym widoczny jest plan akademii z zaznaczonymi dostępnościami sal (aktualnie wolne-w kolorze zielonym, zajęte-czerwonym).
 Aby dodać rezerwację, należy podać hasło i login, podobnie przy usuwaniu danej rezerwacji.
@@ -20,13 +21,13 @@ Aby dodać rezerwację, należy podać hasło i login, podobnie przy usuwaniu da
 Wprowadzone są następujące dane użytkowników:
 id|login|hasło
 
-1|1111|abcd
-2|2222|abcd
-3|3333|abcd
-4|4444|abcd
-5|5555|abcd
-6|6666|abcd
-7|7777|abcd
-8|8888|abcd
-9|9999|abcd
+1|1111|abcd__
+2|2222|abcd__
+3|3333|abcd__
+4|4444|abcd__
+5|5555|abcd__
+6|6666|abcd__
+7|7777|abcd__
+8|8888|abcd__
+9|9999|abcd__
 
