@@ -27,7 +27,6 @@ Rectangle {
     Connections{
         target: Reservation_roommodel
         onToRed: {
-            console.log("tored"+id_room)
             if(id_room!=root.number){
                 return
             }
@@ -40,7 +39,6 @@ Rectangle {
     Connections{
         target: Reservation_roommodel
         onToGreen: {
-            console.log("togreen"+id_room)
             if(id_room!=root.number){
                 return
             }
