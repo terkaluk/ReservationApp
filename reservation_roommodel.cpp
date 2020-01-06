@@ -140,8 +140,6 @@ void Reservation_roommodel::updateColor(){
 QList<int> Reservation_roommodel::get_room_history(int id_room) const{
     QList<int> myList=QList<int>();
     for (auto key: reservations.keys()){
-        qDebug()<<"Reservation_roommodel::get_room_history "<<key;
-        qDebug()<<reservations[key]->id_room<<" "<<id_room;
         if(reservations[key]->id_room==id_room){
             myList.append(key);
         }
