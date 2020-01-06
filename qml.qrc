@@ -1,7 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>qtquickcontrols2.conf</file>
         <file>Room.qml</file>
         <file>Floor.qml</file>
         <file>MyButton.qml</file>
